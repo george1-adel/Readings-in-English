@@ -79,7 +79,7 @@ window.addEventListener('load', function() {
             animation: fadeIn 0.3s ease;
         `;
     welcomeMessage.textContent =
-      "ازيك! اقدر اساعدك ازي بخصوص مادة قراءات باللغة الانجليزية ";
+      "حاليا في مشاكل خاصة بال Ai وده لاسباب تخص الشركة نفسها مش من عندي ومنتظرينها تتحل ف حاليا الشات متوقف مؤقتا";
     chatBox.appendChild(welcomeMessage);
   }
 
