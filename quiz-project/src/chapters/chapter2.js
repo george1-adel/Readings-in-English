@@ -7,105 +7,105 @@ window.chapter2Questions = [
         question: "The systems theory emerged after World War II.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "نظرية الأنظمة ظهرت وانتشرت بعد الحرب العالمية الثانية."
     },
     {
         question: "An educational system is defined as any collection of independent parts that do not interact.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "النظام هو كل متكامل ينتج عن تفاعل أجزائه المترابطة."
     },
     {
         question: "Human resources inputs in an educational system include both students and teachers.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "المدخلات البشرية للنظام التعليمي تشمل الطلاب والمعلمين."
     },
     {
         question: "Educational processes refer to the mechanism by which educational outputs are transformed into inputs.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "العمليات التعليمية هي الآلية التي يتم بها تحويل المدخلات التعليمية إلى مخرجات."
     },
     {
         question: "Skillful graduates are considered the main output of an educational system.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "الخريجون الماهرون هم المخرجات الرئيسية للنظام التعليمي."
     },
     {
         question: "The boundaries of an educational system refer to the region between the system and only the social system.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "الحدود هي المنطقة بين النظام التعليمي والأنظمة الأخرى مثل الأنظمة الاجتماعية والاقتصادية."
     },
     {
         question: "Feedback in an educational system primarily aims to define educational problems, not to evaluate objectives achievement.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "التغذية الراجعة هي عملية التقييم التي تهدف إلى إعطاء مؤشرات على تحقيق الأهداف."
     },
     {
         question: "The kind of educational problem is a crucial factor in determining the required educational system.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "نوع المشكلة التعليمية هو الذي يحدد النظام المطلوب لحلها."
     },
     {
         question: "The required learning goals do not influence the choice of an educational system, as systems are universally applicable.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "نتائج التعلم المطلوبة تحدد النظام التعليمي المستخدم، مثل مثال مجتمع سبارتا."
     },
     {
         question: "In countries with large populations and poor areas, establishing mobile schools can be an adapted educational system solution.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "في الصين، يعتمد النظام التعليمي على إنشاء مدارس متنقلة لمواجهة مشكلة الكثافة السكانية والمناطق الفقيرة."
     },
     {
         question: "A successful educational system should not rely on advanced technology as it may complicate the learning process.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "يعتمد النظام التعليمي الناجح على التكنولوجيا والأنظمة المتقدمة التي ترفع كفاءة الطلاب والمعلمين."
     },
     {
         question: "Instructional design is a branch of science focused on selecting educational material and designing educational programs.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "التصميم التعليمي هو فرع من فروع العلم يصف الإجراءات المتعلقة باختيار المواد التعليمية وتصميم البرامج التعليمية."
     },
     {
         question: "The ADDIE model is a standard instructional design model consisting of five main stages.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "معظم النماذج التعليمية تتفق في وجود خمس مراحل رئيسية، والتي يمكن تجميعها في نموذج قياسي (نموذج ADDIE)."
     },
     {
         question: "In the ADDIE model, the 'Design' stage involves the actual carrying out of the teaching process.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "مرحلة التنفيذ هي المرحلة التي يتم فيها تنفيذ عملية التدريس باستخدام النظام المصمم."
     },
     {
         question: "Analyzing academic contents and defining behavioral goals are activities primarily performed during the 'Design' stage of the ADDIE model.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 3,
+        chapter: 2,
         explanation: "في مرحلة التصميم، يتم تطوير تصميم النظام من خلال تحليل المحتويات الأكاديمية وتحديد الأهداف السلوكية."
     },
 
@@ -119,7 +119,7 @@ window.chapter2Questions = [
             "Feedback"
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "مكونات النظام التعليمي هي المدخلات، العمليات، المخرجات، الحدود، البيئة، والتغذية الراجعة. العوامل الاقتصادية الخارجية جزء من البيئة ولكنها ليست مكوناً داخلياً مباشراً للنظام."
     },
     {
@@ -131,7 +131,7 @@ window.chapter2Questions = [
             "Define the system's boundaries."
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "التغذية الراجعة هي عملية التقييم التي تهدف إلى إعطاء مؤشرات على تحقيق الأهداف."
     },
     {
@@ -143,7 +143,7 @@ window.chapter2Questions = [
             "Implementation"
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "في مرحلة التحليل، يتم تحديد المشكلة التعليمية الرئيسية وتحليل البيئة التعليمية والمتعلمين والأهداف التعليمية الرئيسية."
     },
     {
@@ -155,7 +155,7 @@ window.chapter2Questions = [
             "Reducing the curriculum content."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "الحل المنطقي لمشكلة ضعف البصر هو استخدام نظام تعليمي يعتمد على الكتب المكتوبة بطريقة برايل واستخدام التقنيات الصوتية."
     },
     {
@@ -167,7 +167,7 @@ window.chapter2Questions = [
             "Encouraged academic competition."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "هدف مجتمع سبارتا القديم جعل كل ذكر جندياً في الجيش، لذا اعتمد نظامهم التعليمي على إشراك الأطفال الذكور في معسكرات التدريب العسكري."
     },
     {
@@ -179,7 +179,7 @@ window.chapter2Questions = [
             "Teaching methods"
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "المدخلات التعليمية تتضمن المدخلات المادية والبشرية والأخلاقية (مثل الأهداف وقيم المجتمع) والمدخلات التكنولوجية."
     },
     {
@@ -191,7 +191,7 @@ window.chapter2Questions = [
             "Evaluation"
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "الإدارة هي عملية إدارة الموارد التعليمية والأدوات التكنولوجية."
     },
     {
@@ -203,7 +203,7 @@ window.chapter2Questions = [
             "To collect educational resources."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "نماذج التصميم التعليمي هي مخططات تمثل النمط الذي يجب استخدامه لتشكيل المناهج والوسائل التعليمية وأنظمة كاملة."
     },
     {
@@ -215,7 +215,7 @@ window.chapter2Questions = [
             "Implementation"
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "في مرحلة التطوير، يتم جمع الموارد التعليمية التي ستستخدم بهدف تكوين خبرات المتعلمين."
     },
     {
@@ -227,7 +227,7 @@ window.chapter2Questions = [
             "Evaluating the educational system."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "تبدأ عملية التصميم التعليمي بتحليل الموقف التعليمي، وفي هذه المرحلة يتم تحديد المشكلة التعليمية الرئيسية وتحليل البيئة التعليمية والمتعلمين والأهداف."
     },
     {
@@ -239,7 +239,7 @@ window.chapter2Questions = [
             "Maintaining a rigid curriculum without updates."
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "من معايير النظام التعليمي الناجح توفير المهارات التقنية المبكرة للطلاب."
     },
     {
@@ -251,7 +251,7 @@ window.chapter2Questions = [
             "The evaluation process."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "التصميم (التصميم التعليمي) هو أحد مكونات تكنولوجيا التعليم، وهو يربط بين الأنظمة التعليمية وتكنولوجيا التعليم."
     },
     {
@@ -263,7 +263,7 @@ window.chapter2Questions = [
             "Abundant available capabilities."
         ],
         correctAnswer: 2,
-        chapter: 3,
+        chapter: 2,
         explanation: "في الهند، بسبب الفقر وإجبار الأطفال على العمل مبكرًا، يعتمد النظام التعليمي على المنهج الشامل الذي يركز على الحياة العملية مثل المهارات المهنية باستخدام مصادر التكنولوجيا."
     },
     {
@@ -275,7 +275,7 @@ window.chapter2Questions = [
             "A set of arbitrary rules."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "النظام هو كل متكامل ينتج عن تفاعل أجزائه المترابطة لتحقيق مخرجات محددة."
     },
     {
@@ -287,7 +287,7 @@ window.chapter2Questions = [
             "Defining educational goals and community values."
         ],
         correctAnswer: 1,
-        chapter: 3,
+        chapter: 2,
         explanation: "العمليات التعليمية تشمل كل ما يحدث داخل النظام التعليمي مثل التدريس والمؤتمرات العلمية والأنشطة الصفية."
     },
 
@@ -297,105 +297,105 @@ window.chapter2Questions = [
         question: "Educational aids are defined as any tool exclusively used by the teacher to improve the teaching process.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسيلة التعليمية هي أي أداة يستخدمها المعلم أو المتعلم لتحسين عملية التعليم والتعلم."
     },
     {
         question: "Radio and podcasting are examples of visual aids because they depend on the sense of sight.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "الراديو والبودكاست هما من الوسائل السمعية، التي تعتمد فقط على حاسة السمع."
     },
     {
         question: "Infographics and pictures are classified as visual aids.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "الرسوم البيانية والصور هي وسائل بصرية تعتمد على حاسة البصر فقط."
     },
     {
         question: "Television and video tutorials are classified as audiovisual aids.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "التلفزيون ودروس الفيديو تعتمد على حاستي البصر والسمع معًا."
     },
     {
         question: "Museums and educational exhibitions are examples of multi-senses aids.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "المتاحف والمعارض التعليمية هي وسائل متعددة الحواس تشمل حواسًا أخرى غير السمع والبصر."
     },
     {
         question: "A laptop used by a single student is an example of a 'Group Aid.'",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "الكمبيوتر المحمول المستخدم من قبل فرد واحد هو وسيلة فردية."
     },
     {
         question: "Websites and social networks are considered 'Mass Aids' because they can reach an unlimited number of users in different places.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "المواقع الإلكترونية والشبكات الاجتماعية تستخدم لتعليم عدد غير محدود من المتعلمين في أماكن مختلفة."
     },
     {
         question: "A slide projector is categorized as a 'Dynamic Aid' because it presents content and employs learner interaction.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "جهاز عرض الشرائح هو وسيلة ثابتة، دوره الوحيد هو عرض المحتوى ولا يوظف تفاعل المتعلم."
     },
     {
         question: "Educational computer software and smart boards are examples of 'Dynamic Aids.'",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "برامج الكمبيوتر التعليمية والسبورات الذكية تقدم المحتوى وتوظف تفاعل المتعلم."
     },
     {
         question: "'View-without-Devices Aids' include electronic lectures and digital educational films.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل التي تُعرض بدون أجهزة لا تحتاج إلى أي جهاز للتعامل معها، مثل السبورات التعليمية والعينات التعليمية. المحاضرات الإلكترونية والأفلام تحتاج لأجهزة."
     },
     {
         question: "'Ready-Use Aids' are those made by the teacher or educational aids specialist.",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل الجاهزة للاستخدام لا يصنعها المعلم، بل يختارها فقط، مثل الميكروسكوب ومكعبات الأطفال."
     },
     {
         question: "A chalkboard in a classroom is typically classified as a 'Major Aid.'",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "السبورة هي الوسيلة التعليمية الرئيسية في عملية التدريس في معظم المدارس والجامعات."
     },
     {
         question: "Using a microscope to study tissue is an example of an 'Enrichment Aid.'",
         answers: ["True", "False"],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "استخدام الميكروسكوب لدراسة الأنسجة هو مثال على 'الوسائل التكميلية'."
     },
     {
         question: "One criterion for selecting educational aids is that they should not be a substitute for the teacher.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "من معايير اختيار وتقييم الوسائل التعليمية ألا تكون بديلاً للمعلم."
     },
     {
         question: "Educational technology helps overcome verbosity by employing multiple senses.",
         answers: ["True", "False"],
         correctAnswer: 0,
-        chapter: 4,
+        chapter: 2,
         explanation: "من أهمية الوسائل التعليمية أنها تتغلب على اللفظية بتوظيف الحواس المتعددة."
     },
 
@@ -409,7 +409,7 @@ window.chapter2Questions = [
             "Educational trips"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "دروس الفيديو تعتمد على حاستي البصر والسمع معًا."
     },
     {
@@ -421,7 +421,7 @@ window.chapter2Questions = [
             "Dynamic Aids"
         ],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "معمل اللغات وجهاز عرض البيانات يستخدمان لتعليم مجموعة من المتعلمين في مكان واحد."
     },
     {
@@ -433,7 +433,7 @@ window.chapter2Questions = [
             "Educational museums"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "دروس الفيديو من الوسائل الثابتة التي تعرض المحتوى ولا توظف تفاعل المتعلم."
     },
     {
@@ -445,7 +445,7 @@ window.chapter2Questions = [
             "Electronic Aids"
         ],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "السبورات التعليمية والعينات التعليمية لا تحتاج لأي جهاز للتعامل معها."
     },
     {
@@ -457,7 +457,7 @@ window.chapter2Questions = [
             "Mechanical Aid"
         ],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل الجاهزة للاستخدام لا يصنعها المعلم، بل يختارها فقط، مثل الميكروسكوب."
     },
     {
@@ -469,7 +469,7 @@ window.chapter2Questions = [
             "Visual Aids"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "المتاحف المستخدمة كطريقة تدريس إضافية هي وسائل إثرائية."
     },
     {
@@ -481,7 +481,7 @@ window.chapter2Questions = [
             "Traditional Aids"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل الإلكترونية تستخدم التكنولوجيا الحديثة في صناعتها مثل أجهزة الكمبيوتر وتطبيقات الهاتف المحمول."
     },
     {
@@ -493,7 +493,7 @@ window.chapter2Questions = [
             "Achieves educational goals."
         ],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "من معايير اختيار وتقييم الوسائل التعليمية ألا تكون بديلاً للمعلم."
     },
     {
@@ -505,7 +505,7 @@ window.chapter2Questions = [
             "Focusing solely on verbal communication."
         ],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "من أهمية الوسائل التعليمية أنها تسهل وعي المتعلم بالخبرات."
     },
     {
@@ -517,7 +517,7 @@ window.chapter2Questions = [
             "Electronic"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "ذكر المصدر أن الهاتف المحمول هو 'متعدد الحواس، فردي، ديناميكي، يُعرض بأجهزة، جاهز للاستخدام، رئيسي، إلكتروني'. لم يُذكر أنه 'ثابت'."
     },
     {
@@ -529,7 +529,7 @@ window.chapter2Questions = [
             "Multi senses Aids"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل السمعية تعتمد فقط على حاسة السمع."
     },
     {
@@ -541,7 +541,7 @@ window.chapter2Questions = [
             "Ready-Use Aids"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل ثنائية العرض يمكن عرضها بأجهزة أو بدون أجهزة."
     },
     {
@@ -553,7 +553,7 @@ window.chapter2Questions = [
             "To categorize learners by them."
         ],
         correctAnswer: 1,
-        chapter: 4,
+        chapter: 2,
         explanation: "من أهمية الوسائل التعليمية مواجهة الفروق الفردية."
     },
     {
@@ -565,7 +565,7 @@ window.chapter2Questions = [
             "Mechanical Aids"
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل المصنوعة يتم صنعها من قبل المعلم أو أخصائي الوسائل التعليمية، مثل محاضرات PowerPoint."
     },
     {
@@ -577,7 +577,7 @@ window.chapter2Questions = [
             "Diversifying reinforcement methods."
         ],
         correctAnswer: 2,
-        chapter: 4,
+        chapter: 2,
         explanation: "الوسائل التعليمية تساعد في تطوير القدرة على التفكير والإبداع، وليس الحد منها."
     }
 ];
