@@ -113,12 +113,12 @@ window.questions = [
         chapter: 1,
         question: "The root of educational technology extends to:",
         answers: [
-            "The 20th century",
+            "The 10th century",
             "The era of industrial revolution",
             "The distant past, with ancient civilizations",
             "The invention of the internet"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "يمتد جذر تكنولوجيا التعليم إلى الماضي السحيق، منذ أن بدأ الإنسان في تعليم الأطفال باستخدام التقنيات المتاحة."
     },
     {
@@ -142,7 +142,7 @@ window.questions = [
             "Media and communication science",
             "Visual education"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "هذه المرحلة بدأت بعد ظهور وانتشار وسائل الإعلام وعلوم الاتصال."
     },
     {
@@ -154,7 +154,7 @@ window.questions = [
             "Multisensory education",
             "Auditory education"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "يشمل 'التعليم متعدد الحواس' حواسًا أخرى غير السمع والبصر مثل حاسة اللمس، ومن أمثلتها المتاحف والمعارض التعليمية."
     },
     {
@@ -166,7 +166,7 @@ window.questions = [
             "Implementation",
             "Evaluation"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "مكونات علم تكنولوجيا التعليم هي: النظرية، التصميم، التطوير، الاستخدام، الإدارة، والتقييم. 'Implementation' (التطبيق) ليس مذكوراً كعنصر مستقل في هذه القائمة، بل قد يكون جزءاً من 'الاستخدام'."
     },
     {
@@ -178,7 +178,7 @@ window.questions = [
             "Defining organized procedures to improve teaching, considering goals and learner characteristics.",
             "Identifying educational problems and developing technological solutions."
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "'التصميم' هو تحديد إجراءات منظمة لتحسين عملية التدريس، مع الأخذ في الاعتبار عوامل مثل تحديد الأهداف التعليمية وخصائص المتعلمين."
     },
     {
@@ -190,7 +190,7 @@ window.questions = [
             "Use",
             "Evaluation"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "هذا يمثل 'الاستخدام' الفعلي للتكنولوجيا في العملية التعليمية."
     },
     {
@@ -202,7 +202,7 @@ window.questions = [
             "Evaluation",
             "Development"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "'التقييم' هو عملية تحديد المشكلات التعليمية وتطوير حلول تكنولوجية لها، كما يتضمن تطوير عمليات التقييم باستخدام الأدوات التكنولوجية."
     },
     {
@@ -214,7 +214,7 @@ window.questions = [
             "Providing an essential source of information.",
             "Exclusively benefiting traditional teaching methods."
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "من أهمية تكنولوجيا التعليم أنها توفر مصدرًا أساسيًا للمعلومات يحتاجه المعلم والطالب."
     },
     {
@@ -226,7 +226,7 @@ window.questions = [
             "Neglecting individual differences.",
             "Difficulty in managing resources."
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "تكنولوجيا التعليم تطور طرق التدريس لحل مشكلة إهمال الفروق الفردية بين المتعلمين من خلال برامج تعليمية لديها القدرة على الشرح عددًا لا نهائيًا من المرات."
     },
     {
@@ -250,7 +250,7 @@ window.questions = [
             "Individual learning",
             "Traditional teaching"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "توفر التكنولوجيا برامج تساهم في التعلم الفردي، مثل برامج المحاكاة الإلكترونية المستخدمة لمحاكاة المهارات المعملية."
     },
     {
@@ -274,7 +274,7 @@ window.questions = [
             "Directing educational resources and technological tools.",
             "Identifying educational problems."
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "'الإدارة' هي عملية إدارة الموارد التعليمية والأدوات التكنولوجية."
     },
     {
@@ -286,112 +286,112 @@ window.questions = [
             "Communication Channel",
             "Part of Educational System"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "في هذه المرحلة، تحول دور تكنولوجيا التعليم لتصبح قناة اتصال بين المرسل والمعلم والمستقبل."
     },
 
-    // ===== Unit 2: Educational Communication =====
+    // ===== Unit 1: Educational Communication =====
     // True/False Questions
     {
-        chapter: 2,
+        chapter: 1,
         question: "Communication is a recent human activity, emerging with social media networks.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "الاتصال هو أحد أقدم جوانب النشاط البشري، وقد ذُكر منذ عصر الفلاسفة اليونانيين مثل أرسطو وسقراط."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Educational technology serves as a communication channel, engaging all the learner's senses to benefit the communication process.",
         answers: ["True", "False"],
         correctAnswer: 0,
         explanation: "تلعب تكنولوجيا التعليم دور قناة الاتصال بين المرسل والمستقبل، من خلال إشراك جميع حواس المتعلم في عملية الاتصال، مما يعود بالنفع على العملية برمتها."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "In educational communication, the teacher is always the sole sender of the message.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "المرسل في عملية الاتصال التعليمي هو المعلم، ولكن قد يكون المرسل أيضًا برنامجًا حاسوبيًا أو تطبيقًا للهاتف المحمول يشرح المحتوى التعليمي."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "The effectiveness of the educational communication process decreases with increased learner interaction.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "كلما زاد تفاعل المتعلم، زادت فعالية عملية الاتصال."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "A message in educational communication typically lacks specific and clear educational goals.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "الرسالة في عملية الاتصال التعليمي لها أهداف تعليمية محددة وواضحة."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Educational technology only reinforces existing communication channels and does not diversify them.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "تكنولوجيا التعليم تقوي وتنظم وتنوع قنوات الاتصال في عملية الاتصال التعليمي."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Feedback is not essential in communication as the sender can always assume the message's effect on the receiver.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "بدون التغذية الراجعة (رد فعل المستقبل تجاه الرسالة)، لا يمكن للمرسل (المعلم) معرفة تأثير الرسالة على المستقبل (المتعلم)."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "A noisy communication environment, such as external loud voices, can create confusion in the communication process.",
         answers: ["True", "False"],
         correctAnswer: 0,
         explanation: "أي تأثير سيء على بيئة الاتصال يؤدي إلى ارتباك في عملية الاتصال، مثل الأصوات الخارجية الصاخبة."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "A good communication process is characterized by being unidirectional, where information flows only from the sender.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "الاتصال الجيد يجب أن يكون ديناميكيًا ودائريًا، مما يعني وجود تفاعل بين المرسل والمستقبل."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Defining behavioral goals is a crucial step during the planning of a purposeful communication process.",
         answers: ["True", "False"],
         correctAnswer: 0,
         explanation: "يجب تحديد الأهداف السلوكية أثناء التخطيط لعملية الاتصال الهادفة."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "For a communication process to be considered 'organized,' it must involve an alternation between sending and receiving roles.",
         answers: ["True", "False"],
         correctAnswer: 0,
         explanation: "يجب أن تكون عملية منظمة، حيث يرسل المرسل ويستقبل المستقبل، فلا يناسب أن يكون الوقت كله مرسلين فقط أو مستقبلين فقط."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Good educational communication implies a clear, two-way feedback system between sender and receiver.",
         answers: ["True", "False"],
         correctAnswer: 0,
         explanation: "الاتصال التعليمي الجيد يتميز بوجود اتصال دائري بين المرسل والمستقبل، ووجود تغذية راجعة مزدوجة."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Verbal language in educational communication solely involves spoken words.",
         answers: ["True", "False"],
         correctAnswer: 1,
         explanation: "اللغة اللفظية تشمل رموزًا لفظية (الاستماع والتحدث) ورموزًا مكتوبة (القراءة والكتابة)."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Non-verbal communication, such as body language, acts as a confirmatory tool for verbal language.",
         answers: ["True", "False"],
         correctAnswer: 0,
         explanation: "اللغة غير اللفظية، مثل لغة الجسد (تعبيرات الوجه وحركات اليد)، تستخدم كأدوات تأكيدية لللغة اللفظية."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "One of the barriers to educational communication is the teacher's use of traditional methods that bore the learner.",
         answers: ["True", "False"],
         correctAnswer: 0,
@@ -400,7 +400,7 @@ window.questions = [
 
     // Multiple Choice Questions
     {
-        chapter: 2,
+        chapter: 1,
         question: "The organized process of sending and receiving messages between a teacher and students through channels is defined as:",
         answers: [
             "General communication",
@@ -408,11 +408,11 @@ window.questions = [
             "Educational communication",
             "Information exchange"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "هذا هو تعريف الاتصال التعليمي."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Which element of educational communication refers to the tool that carries the message from the sender to the receiver?",
         answers: [
             "Feedback",
@@ -420,11 +420,11 @@ window.questions = [
             "Channel",
             "Environment"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "'القناة' هي الأداة التي تحمل الرسالة من المرسل إلى المستقبل."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "When the receiver reacts toward the message, indicating its effectiveness, this element is known as:",
         answers: [
             "Message",
@@ -436,7 +436,7 @@ window.questions = [
         explanation: "'التغذية الراجعة' هي رد فعل المستقبل تجاه الرسالة، وبالتالي تبين مدى فعالية الرسالة."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "All of the following are features of a good communication process EXCEPT:",
         answers: [
             "Dynamic",
@@ -444,11 +444,11 @@ window.questions = [
             "Unstructured",
             "Circular"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "الاتصال الجيد يجب أن يكون منظمًا، وليس غير منظم."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "A communication process where the learner is not active is considered:",
         answers: [
             "Purposeful",
@@ -460,7 +460,7 @@ window.questions = [
         explanation: "الاتصال الفاشل هو الذي لا يكون فيه المتعلم نشيطًا، لأن الاتصال الجيد يجب أن يكون ديناميكيًا (تفاعليًا)."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Which of the following is an example of an 'educational communication channel'?",
         answers: [
             "Learner fatigue",
@@ -468,11 +468,11 @@ window.questions = [
             "Mobile phone",
             "Teacher's academic skills"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "من قنوات الاتصال التعليمي الأخرى المذكورة هي (الكمبيوتر، الهاتف المحمول)."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "What kind of language in educational communication includes listening and speaking?",
         answers: [
             "Non-verbal language",
@@ -480,11 +480,11 @@ window.questions = [
             "Verbal language",
             "Extra elements"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "اللغة اللفظية تشمل الرموز اللفظية التي تتضمن (الاستماع والتحدث)."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Which of the following is NOT an importance of educational communication?",
         answers: [
             "Deepening learners' experiences.",
@@ -496,7 +496,7 @@ window.questions = [
         explanation: "تزيد الاتصالات التعليمية من التفاعل بين المعلم والمتعلم، مما يحسن العملية التعليمية."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "What is an example of a physical tool in non-verbal communication?",
         answers: [
             "Oral explanation",
@@ -504,11 +504,11 @@ window.questions = [
             "Facial expressions",
             "Audiobooks"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "من مكونات اللغة غير اللفظية هي لغة الجسد (تعبيرات الوجه وحركات اليد)."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Bad classroom conditions, such as poor ventilation or damaged microphone, are considered:",
         answers: [
             "Features of good communication",
@@ -516,11 +516,11 @@ window.questions = [
             "Educational communication barriers",
             "Types of communication channels"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "ظروف الفصل السيئة (سوء التهوية، الميكروفون التالف، الازدحام) هي من المعوقات التي تسبب حواجز لعملية الاتصال التعليمي."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "Fusion in the classroom, whether internal (due to illness, anxiety) or external (communication environment), can lead to:",
         answers: [
             "Enhanced communication",
@@ -528,11 +528,11 @@ window.questions = [
             "Barriers to communication",
             "Better feedback mechanisms"
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "وجود الاندماج (Fusion) في الفصل، سواء داخليًا أو خارجيًا، يؤدي إلى حواجز في عملية الاتصال."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "The definition of educational communication includes the purpose of making a certain impact in the future through:",
         answers: [
             "Only non-verbal symbols.",
@@ -544,7 +544,7 @@ window.questions = [
         explanation: "الرسالة (Syllabus) هي رموز لفظية وغير لفظية تصاغ لإحداث تأثير معين في المستقبل، وهي جزء من تعريف الاتصال التعليمي."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "When the teacher neglects individual differences among learners, it can lead to:",
         answers: [
             "Stronger communication skills.",
@@ -556,7 +556,7 @@ window.questions = [
         explanation: "عدم مراعاة الفروق الفردية بين المتعلمين قد يؤدي إلى عدم مواكبة بعضهم لعملية الاتصال وبالتالي فشلهم."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "The 'Receiver' in educational communication is described as the person or entity for whom the message is addressed and made. Who is typically the receiver in this context?",
         answers: [
             "The teacher",
@@ -568,7 +568,7 @@ window.questions = [
         explanation: "'المستقبل' هو الشخص أو الأشخاص الذين توجه الرسالة إليهم، والمتعلم هو المستقبل في الاتصال التعليمي."
     },
     {
-        chapter: 2,
+        chapter: 1,
         question: "According to the source, the relationship between educational technology and communication is that educational technology:",
         answers: [
             "Replaces the need for traditional communication channels.",
@@ -576,7 +576,7 @@ window.questions = [
             "Plays the role of a communication channel.",
             "Is irrelevant to the communication process."
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         explanation: "تلعب تكنولوجيا التعليم دور قناة الاتصال بين المرسل والمستقبل."
     }
 ];
