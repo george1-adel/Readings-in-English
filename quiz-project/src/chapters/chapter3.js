@@ -1,667 +1,584 @@
-// الفصل الثالث: نظام الكمبيوتر والإنترنت
+// الفصل الخامس والسادس: نظام الكمبيوتر والإنترنت
 
 window.chapter3Questions = [
-    // ===== اختيار من متعدد (30 سؤال) =====
+    // ===== Unit 3: Computer System =====
+    // --- True/False (13 Questions) ---
     {
-        question: "Which of the following is NOT considered a hardware component of a computer system?",
+        question: "Computer hardware refers exclusively to external devices connected to the computer.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "الأجهزة المادية (Hardware) للكمبيوتر تشمل المكونات الداخلية والخارجية مثل الشاشة، لوحة المفاتيح، وحدات المعالجة، ووحدات التخزين، وليست مقتصرة على الأجهزة الخارجية فقط."
+    },
+    {
+        question: "RAM (Random Access Memory) is primarily used for long-term storage of user applications and data.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "ذاكرة الوصول العشوائي (RAM) تخزن الكود والبيانات التي يتم الوصول إليها بشكل نشط بواسطة وحدة المعالجة المركزية (CPU)، ويتم مسح البيانات تلقائيًا منها عندما لا تكون نشطة، مما يجعلها للتخزين قصير المدى وليس طويل الأمد."
+    },
+    {
+        question: "An operating system like Windows provides common services for computer programs, managing hardware and software resources.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "نظام التشغيل (OS) هو برنامج نظام يدير الأجهزة والبرامج ويوفر خدمات مشتركة لبرامج الكمبيوتر، مثل ويندوز."
+    },
+    {
+        question: "A computer mouse is classified as an output unit because it allows users to see movement on the screen.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "الفأرة (Mouse) هي جهاز إدخال (Input unit) يُستخدم لإدخال البيانات عبر تحديد الحركة ثنائية الأبعاد، وحركتها تُترجم إلى حركة المؤشر على الشاشة."
+    },
+    {
+        question: "Applications are defined as instructions that can be stored and run by hardware.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "التطبيقات (Applications) هي تعليمات يمكن تخزينها وتشغيلها بواسطة الأجهزة، وهي جزء من البرامج (Software)."
+    },
+    {
+        question: "Photoshop and Illustrator are examples of office applications used for administrative tasks.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "فوتوشوب وإليستريتور هي أمثلة على تطبيقات الرسوم (Graphic Applications) المستخدمة في الأعمال الفنية، بينما برامج مثل مايكروسوفت وورد وإكسل هي تطبيقات مكتبية."
+    },
+    {
+        question: "The Central Processing Unit (CPU) is responsible for executing instructions that make up a computer program.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "وحدة المعالجة المركزية (CPU) هي الدائرة الإلكترونية داخل الكمبيوتر التي تقوم بتنفيذ التعليمات التي تشكل برنامج الكمبيوتر."
+    },
+    {
+        question: "External storage devices, such as flash memory, clear data automatically once it is no longer actively accessed by the CPU.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "أجهزة التخزين الخارجية (External Storage Devices) مثل الذاكرة الفلاشية تستخدم لتخزين بيانات المستخدم بشكل دائم، على عكس ذاكرة الوصول العشوائي (RAM)."
+    },
+    {
+        question: "Antivirus applications are specifically designed for educational purposes, like course-tutorial applications.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "برامج مكافحة الفيروسات (Antivirus Applications) مصممة لمسح الفيروسات وحذفها، بينما التطبيقات التعليمية (Educational Applications) مصممة خصيصًا للأغراض التعليمية."
+    },
+    {
+        question: "Computer software is broadly categorized into operating systems and applications.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "البرامج (Software) هي تعليمات يمكن تخزينها وتشغيلها بواسطة الأجهزة، وتنقسم إلى نظام تشغيل (Operating system) وتطبيقات (Applications)."
+    },
+    {
+        question: "A computer display (monitor) is an input unit that allows users to interact with the computer.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "شاشة الكمبيوتر (Display) هي جهاز إخراج (Output device) يعرض المعلومات بشكل مرئي، بينما أجهزة الإدخال مثل لوحة المفاتيح هي التي تسمح بالتفاعل."
+    },
+    {
+        question: "Read Only Memory (ROM) stores the BIOS that runs when the computer is powered on.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "ذاكرة القراءة فقط (ROM) تخزن الـ BIOS الذي يتم تشغيله عند تشغيل الكمبيوتر في عملية تعرف بـ (Booting)."
+    },
+    {
+        question: "Runtime applications are considered complementary programs for the operating system, often used for file compression.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "تطبيقات وقت التشغيل (Runtimes Applications) هي برامج تكميلية لنظام التشغيل، مثل WinRAR المستخدم لضغط الملفات."
+    },
+    {
+        question: "A computer system functions even if it lacks either hardware or software components.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "نظام الكمبيوتر هو نظام متكامل يتكون من مكونات الأجهزة والبرامج التي تعمل معًا لأداء وظائفه، ولا يمكن أن يعمل بدون أحدهما."
+    },
+    {
+        question: "Maintenance applications are used to perform computer repair tasks, such as processing bad sectors.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "تطبيقات الصيانة (Maintenance Applications) هي برامج تُستخدم لأداء مهام إصلاح الكمبيوتر، مثل معالجة القطاعات التالفة (bad sectors)."
+    },
+
+    // --- Multiple Choice (13 Questions) ---
+    {
+        question: "Which of the following is considered an input unit of a computer system?",
         answers: [
+            "Printer",
             "Monitor",
             "Keyboard",
-            "Operating System",
-            "CPU"
+            "Central Processing Unit (CPU)"
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "نظام التشغيل (Operating System) هو جزء من البرمجيات (Software) وليس المكونات المادية."
+        explanation: "لوحة المفاتيح (Keyboard) هي جهاز إدخال يستخدم لإدخال البيانات عن طريق المفاتيح. الطابعة والشاشة هي أجهزة إخراج، ووحدة المعالجة المركزية هي وحدة معالجة."
     },
     {
-        question: "The primary function of a Central Processing Unit (CPU) is to:",
+        question: "What is the primary function of an operating system?",
         answers: [
-            "Store data permanently",
-            "Execute instructions that make up a computer program",
-            "Display visual information",
-            "Print graphics and text on paper"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "وحدة المعالجة المركزية هي الدائرة الإلكترونية التي تنفذ التعليمات التي تشكل برنامج الكمبيوتر."
-    },
-    {
-        question: "Random Access Memory (RAM) is primarily used for:",
-        answers: [
-            "Storing the BIOS",
-            "Storing data that is actively accessed by the CPU",
-            "Permanent user application storage",
+            "Storing user applications permanently",
+            "Managing computer hardware and software resources",
+            "Editing images and videos",
             "Compressing files"
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "ذاكرة الوصول العشوائي تخزن التعليمات والبيانات التي يتم الوصول إليها بنشاط بواسطة وحدة المعالجة المركزية وتُمسح تلقائيًا عند عدم استخدامها."
+        explanation: "الوظيفة الأساسية لنظام التشغيل هي إدارة موارد الأجهزة والبرامج وتوفير خدمات مشتركة لبرامج الكمبيوتر."
     },
     {
-        question: "Which type of software is responsible for managing computer hardware and providing common services for computer programs?",
+        question: "Which type of software is Microsoft PowerPoint classified as?",
         answers: [
-            "Office Applications",
-            "Graphic Applications",
-            "Operating Systems",
-            "Runtimes Applications"
+            "Graphic Application",
+            "Runtime Application",
+            "Office Application",
+            "Antivirus Application"
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "أنظمة التشغيل هي البرمجيات المسؤولة عن إدارة مكونات الكمبيوتر المادية وموارده البرمجية."
+        explanation: "مايكروسوفت باوربوينت (MS PowerPoint) هو جزء من حزمة مايكروسوفت أوفيس (Microsoft Office)، وهي برامج تُستخدم في معظم الأعمال الإدارية."
     },
     {
-        question: "An example of an application specifically designed for educational purposes is:",
+        question: "The physical parts or components of a computer, such as the monitor and keyboard, are collectively known as:",
         answers: [
-            "Photoshop",
+            "Computer Software",
+            "Computer Applications",
+            "Computer Hardware",
+            "Operating Systems"
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "الأجزاء المادية أو مكونات الكمبيوتر، مثل الشاشة ولوحة المفاتيح، تُعرف باسم أجهزة الكمبيوتر (Computer hardware)."
+    },
+    {
+        question: "Which of the following describes the function of RAM?",
+        answers: [
+            "Stores the BIOS for booting the computer.",
+            "Stores data long-term for user applications.",
+            "Stores code and data actively accessed by the CPU, clearing automatically when inactive.",
+            "Makes graphics and text on paper."
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "ذاكرة الوصول العشوائي (RAM) تخزن الكود والبيانات التي يتم الوصول إليها بشكل نشط بواسطة وحدة المعالجة المركزية، ويتم مسحها تلقائيًا عند عدم النشاط."
+    },
+    {
+        question: "Which of these is an example of an output unit?",
+        answers: [
+            "Mouse",
+            "Scanner",
+            "Printer",
+            "Microphone"
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "الطابعة (Printer) هي جهاز إخراج يصنع الرسوم والنصوص على الورق."
+    },
+    {
+        question: "What is the definition of a computer system according to the source?",
+        answers: [
+            "Only the hardware components that perform functions.",
+            "Only the software instructions that can be stored and run.",
+            "The hardware and software components that come together to perform its functions.",
+            "A device solely for playing games and watching videos."
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "نظام الكمبيوتر هو مكونات الأجهزة والبرامج التي تعمل معًا لأداء وظائفها."
+    },
+    {
+        question: "Which example correctly identifies an educational application?",
+        answers: [
             "WinRAR",
+            "Photoshop",
             "Electronic dictionaries",
             "MS Excel"
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "القواميس الإلكترونية وتطبيقات البرامج التعليمية للدورات هي أمثلة على التطبيقات التعليمية."
+        explanation: "القواميس الإلكترونية (electronic dictionaries) هي برامج مصممة خصيصًا للأغراض التعليمية."
     },
     {
-        question: "Which of the following is considered an output unit?",
+        question: "The process known as 'Booting' in a computer system involves:",
         answers: [
-            "Mouse",
-            "Keyboard",
-            "Monitor",
-            "Flash Memory"
+            "Storing temporary data in RAM.",
+            "Executing instructions by the CPU.",
+            "Storing the BIOS in ROM when the computer is powered on.",
+            "Compressing files using a runtime application."
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "الشاشة (Monitor) هي جهاز إخراج يعرض المعلومات بصريًا."
+        explanation: "الـ BIOS المخزن في الذاكرة القراءة فقط (ROM) هو الذي يتم تشغيله عند تشغيل الكمبيوتر، وهي عملية تعرف بالـ (Booting)."
     },
     {
-        question: "What is the main characteristic of Read Only Memory (ROM)?",
+        question: "Adobe Premiere is an example of which type of application?",
         answers: [
-            "It clears data automatically when not active",
-            "It stores the BIOS that runs during booting",
-            "It is used for user application storing",
-            "It manages hardware and software resources"
+            "Office Application",
+            "Antivirus Application",
+            "Graphic Application",
+            "Educational Application"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         chapter: 3,
-        explanation: "ذاكرة القراءة فقط (ROM) تخزن نظام الإدخال/الإخراج الأساسي (BIOS) الذي يعمل عند تشغيل الكمبيوتر."
+        explanation: "أدوبي بريمير (Premiere) هو برنامج يُستخدم لتحرير الفيديو، ويندرج تحت تطبيقات الرسوم (Graphic Applications)."
     },
     {
-        question: "Which of the following is an example of an external storage device?",
+        question: "Which statement about operating systems is FALSE?",
         answers: [
-            "RAM",
-            "ROM",
-            "CPU",
-            "Hard Disk"
+            "They manage hardware resources.",
+            "They manage software resources.",
+            "They provide a stable way for applications to deal with hardware.",
+            "They are a type of application software."
         ],
         correctAnswer: 3,
         chapter: 3,
-        explanation: "القرص الصلب (Hard Disk) و بطاقة الذاكرة (Memory Card) و الذاكرة الوميضية (Flash Memory) هي أمثلة على أجهزة التخزين الخارجية."
+        explanation: "نظام التشغيل (Operating system) هو برنامج نظام (System software) وليس تطبيق (Application software)."
     },
     {
-        question: "Microsoft Office package, including MS Word and MS Excel, falls under which category of applications?",
+        question: "What is the purpose of external storage devices?",
         answers: [
-            "Runtimes Applications",
+            "To store actively accessed code and data temporarily.",
+            "To execute computer program instructions.",
+            "To permanently store user application data.",
+            "To display visual information."
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "أجهزة التخزين الخارجية (External Storage Devices) تُستخدم لتخزين بيانات تطبيقات المستخدم بشكل دائم."
+    },
+    {
+        question: "Which of the following is NOT a component of computer hardware?",
+        answers: [
+            "Input units",
+            "Operating systems",
+            "Processing units",
+            "Storage units"
+        ],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "أنظمة التشغيل (Operating systems) هي جزء من البرامج (Software)، وليست من الأجهزة المادية (Hardware)."
+    },
+    {
+        question: "Applications like WinRAR are classified under:",
+        answers: [
             "Office Applications",
             "Graphic Applications",
+            "Runtimes Applications",
             "Educational Applications"
         ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "WinRAR هو برنامج تكميلي لنظام التشغيل، ويُصنف ضمن تطبيقات وقت التشغيل (Runtimes Applications)."
+    },
+    {
+        question: "What does a computer printer primarily do?",
+        answers: [
+            "Detects two-dimensional motion.",
+            "Displays information in visual form.",
+            "Executes instructions of a program.",
+            "Makes graphics and text on paper."
+        ],
+        correctAnswer: 3,
+        chapter: 3,
+        explanation: "الطابعة (Printer) هي جهاز طرفي يصنع الرسوم والنصوص على الورق."
+    },
+
+    // ===== Unit 3: Internet =====
+    // --- True/False (13 Questions) ---
+    {
+        question: "The Internet is a small, localized computer network connecting computers within a single city.",
+        answers: ["True", "False"],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "حزمة مايكروسوفت أوفيس تستخدم في معظم الأعمال الإدارية وتصنف كتطبيقات مكتبية (Office Applications)."
+        explanation: "الإنترنت شبكة كمبيوتر عالمية واسعة جدًا، تربط الشبكات وأجهزة الكمبيوتر حول العالم."
     },
     {
-        question: "The statement 'Software is instructions that can be stored and ran by hardware' defines:",
-        answers: [
-            "Computer Hardware",
-            "Operating System",
-            "Computer Software",
-            "Processing Unit"
-        ],
-        correctAnswer: 2,
+        question: "One reason for the widespread use of the Internet is its ability to publish content in any language.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
         chapter: 3,
-        explanation: "هذه الجملة هي تعريف البرمجيات (Computer Software)."
+        explanation: "يسمح الإنترنت بنشر المحتوى بأي لغة، مما ساهم في انتشاره الواسع."
     },
     {
-        question: "Which of the following is a function of operating systems?",
-        answers: [
-            "Creating presentations",
-            "Scanning viruses from computers",
-            "Providing a stable way for applications to deal with hardware",
-            "Editing images"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "وظائف أنظمة التشغيل تشمل إدارة موارد الأجهزة والبرامج وتوفير طريقة مستقرة للتطبيقات للتعامل مع الأجهزة."
-    },
-    {
-        question: "Photoshop and Illustrator are categorized as:",
-        answers: [
-            "Office Applications",
-            "Maintenance Applications",
-            "Graphic Applications",
-            "Internet Applications"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "برامج الفوتوشوب والإليستريتور تُستخدم في الأعمال الفنية وتُصنف كتطبيقات رسومية (Graphic Applications)."
-    },
-    {
-        question: "Which component interacts with the CPU to actively access code and data, but clears data when not active?",
-        answers: [
-            "Hard Disk",
-            "ROM",
-            "RAM",
-            "Memory Card"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "ذاكرة الوصول العشوائي (RAM) تخزن الكود والبيانات التي يتم الوصول إليها بنشاط بواسطة وحدة المعالجة المركزية، وتمسح تلقائيًا عند عدم النشاط."
-    },
-    {
-        question: "What type of application is WinRAR, primarily used to compress files?",
-        answers: [
-            "Office Application",
-            "Runtime Application",
-            "Maintenance Application",
-            "Antivirus Application"
-        ],
+        question: "E-mail is primarily a social networking service for exchanging social news between community members.",
+        answers: ["True", "False"],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "WinRAR يُصنف كبرامج مكملة لنظام التشغيل وتُسمى تطبيقات وقت التشغيل (Runtimes Applications)."
+        explanation: "البريد الإلكتروني (E-Mail) هو برنامج لإرسال واستقبال الرسائل الإلكترونية بسرعة فائقة، بينما الشبكات الاجتماعية (Social networks) هي مواقع لتبادل الأخبار الاجتماعية."
     },
     {
-        question: "If a program is designed specifically for educational purposes like course tutorials, it would be classified as an:",
-        answers: [
-            "Office Application",
-            "Graphic Application",
-            "Educational Application",
-            "Maintenance Application"
-        ],
-        correctAnswer: 2,
+        question: "Web sites can be used in education by creating a website that explains educational material.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
         chapter: 3,
-        explanation: "البرامج المصممة لأغراض تعليمية محددة تُصنف كتطبيقات تعليمية (Educational Applications)."
+        explanation: "يمكن استخدام المواقع الإلكترونية (Web Sites) في التعليم عن طريق إنشاء موقع يشرح المواد التعليمية."
     },
     {
-        question: "According to the sources, one of the main reasons for the widespread use of the Internet is that:",
-        answers: [
-            "It requires a specific type of computer",
-            "Its use is always free, without any paid services",
-            "It allows publishing content in any language",
-            "It is mainly used for social networking only"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "الإنترنت يسمح بنشر المحتوى بأي لغة، مع الإشارة إلى أن اللغة الإنجليزية خلقت أرضية مشتركة للفهم."
-    },
-    {
-        question: "Which of the following Internet services is primarily used by users to access educational websites and download educational resources?",
-        answers: [
-            "E-Mail",
-            "Web Translation",
-            "Search Engines",
-            "Social Networks"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "محركات البحث (Search Engines) هي التي تساعد المستخدمين في الوصول إلى مواقع الإنترنت الأخرى وتنزيل الكتب والموارد التعليمية."
-    },
-    {
-        question: "Portals are defined as:",
-        answers: [
-            "Social networks specific to video clips",
-            "Websites for sharing social news between community members",
-            "Websites belonging to a specific educational institution",
-            "Websites that provide immediate electronic translation"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "البوابات (Portals) هي مواقع ويب تابعة لمؤسسة تعليمية محددة (مدرسة، أكاديمية، جامعة)."
-    },
-    {
-        question: "Which Internet service allows for sending assignments and lessons across e-groups involving students, teachers, and parents?",
-        answers: [
-            "Video Websites",
-            "Databases",
-            "Social Networks",
-            "Web Sites"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "الشبكات الاجتماعية (Social Networks) تُستخدم في التعليم من خلال إنشاء مجموعات إلكترونية تسمح بالتواصل التعليمي وإرسال الواجبات."
-    },
-    {
-        question: "The Egyptian Knowledge Bank (EKB) is given as an example of a:",
-        answers: [
-            "Video Website",
-            "Portal",
-            "Database",
-            "Web Translation service"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "بنك المعرفة المصري هو مثال لمواقع الويب التي تحتوي على عدد ضخم من الموارد التعليمية مثل الكتب والأبحاث الأكاديمية المخزنة بتنسيق PDF، وتُصنف على أنها قواعد بيانات (Databases)."
-    },
-    {
-        question: "One of the benefits of E-Mail in education is:",
-        answers: [
-            "Providing lectures through direct viewing",
-            "Acting as an official means of communication between different educational institutions",
-            "Allowing users to search for video files to view",
-            "Providing immediate electronic translation"
-        ],
+        question: "Portals are general websites that provide a wide range of services for any user.",
+        answers: ["True", "False"],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "البريد الإلكتروني يُستخدم كوسيلة رسمية للتواصل بين المؤسسات التعليمية المختلفة."
+        explanation: "البوابات (Portals) هي مواقع ويب مملوكة لمؤسسة تعليمية محددة (مدرسة، أكاديمية، جامعة)، وتستخدم للوصول إلى الخدمات التعليمية لتلك المؤسسة فقط."
     },
     {
-        question: "Which of the following is NOT listed as a reason for the widespread use of the Internet?",
+        question: "The use of the Internet always requires a specific type of computer or operating system.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "استخدام الإنترنت لا يتطلب نوعًا معينًا من الكمبيوتر أو نظام تشغيل محدد، مما ساهم في انتشاره."
+    },
+    {
+        question: "Social networks are described as websites of the first generation (Web1).",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "الشبكات الاجتماعية (Social networks) هي مواقع ويب من الجيل الثاني (Web2)."
+    },
+    {
+        question: "Search Engines help users access other internet sites by writing a search word instead of the full site name.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "محركات البحث (Search Engines) تساعد المستخدمين على الوصول إلى مواقع الإنترنت الأخرى عن طريق كتابة كلمة بحث بدلاً من الاسم الكامل للموقع."
+    },
+    {
+        question: "Video Websites are primarily used for searching academic research papers and books in PDF format.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "مواقع الفيديو (Video Websites) مخصصة لمقاطع الفيديو، بينما مواقع قواعد البيانات (Databases) هي التي تحتوي على الموارد التعليمية والبحثية بصيغة PDF."
+    },
+    {
+        question: "Web Translation services provide immediate electronic translation from one language to another.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "مواقع الترجمة عبر الويب (Web Translation) توفر ترجمة إلكترونية فورية من لغة إلى أخرى."
+    },
+    {
+        question: "E-mail can serve as an official means of communication between different educational institutions.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "يُستخدم البريد الإلكتروني (E-Mail) كوسيط اتصال رسمي بين المؤسسات التعليمية المختلفة."
+    },
+    {
+        question: "One of the reasons for the Internet's widespread use is that it is entirely free to use all services universally.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "يُذكر أن الإنترنت مجاني للاستخدام بشكل عام، مما يسمح بالوصول إلى جمهور أوسع، ولكن بعض خدمات قواعد البيانات قد تكون مدفوعة الأجر. السؤال ينص على 'كل الخدمات' وهذا غير صحيح تمامًا."
+    },
+    {
+        question: "Databases on the Internet primarily host video tutorials and animations.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "قواعد البيانات (Databases) على الإنترنت تحتوي على عدد هائل من الموارد التعليمية مثل الكتب والأبحاث الأكاديمية بصيغة PDF، وليست مخصصة لمقاطع الفيديو التعليمية."
+    },
+    {
+        question: "Social networks can facilitate educational communication between students, teachers, and parents through e-groups.",
+        answers: ["True", "False"],
+        correctAnswer: 0,
+        chapter: 3,
+        explanation: "يمكن استخدام الشبكات الاجتماعية في التعليم من خلال إنشاء مجموعات إلكترونية (e-groups) للتواصل التعليمي بين الأطراف المختلفة في العملية التعليمية."
+    },
+    {
+        question: "Google is an example of a web site that contains images and text and is dealt with through Internet browsers.",
+        answers: ["True", "False"],
+        correctAnswer: 1,
+        chapter: 3,
+        explanation: "جوجل (Google) هو مثال على محرك بحث (Search Engine)، بينما المواقع الإلكترونية (Web Sites) هي صفحات تحتوي على صور ونصوص يتم التعامل معها عبر متصفحات الإنترنت."
+    },
+
+    // --- Multiple Choice (13 Questions) ---
+    {
+        question: "Which of the following is NOT a reason for the widespread use of the Internet?",
         answers: [
             "Speed of communication",
-            "Its usage requires a specific operating system",
-            "Multiple uses in all fields",
-            "It is free to use"
+            "Requirement of specific hardware types",
+            "Ability to publish content in any language",
+            "Multiple uses in all fields"
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "المصادر تذكر أن استخدامه لا يتطلب نوعًا معينًا من الكمبيوتر أو نظام تشغيل معين."
+        explanation: "من أسباب الانتشار الواسع للإنترنت أنه لا يتطلب نوعًا محددًا من الكمبيوتر أو نظام تشغيل معين، فالمتطلب هنا يعتبر سببًا خاطئًا."
     },
     {
-        question: "Web Translation services primarily aim to:",
+        question: "Yahoo Mail is an example of a service provided by:",
         answers: [
-            "Provide a platform for social interaction",
-            "Offer immediate electronic translation from one language to another",
-            "Store a huge number of educational resources",
-            "Allow applying to courses and paying expenses"
+            "Search Engines",
+            "E-Mail providers",
+            "Social networks",
+            "Video Websites"
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "خدمات الترجمة عبر الويب هي مواقع ويب توفر ترجمة إلكترونية فورية من لغة إلى أخرى."
+        explanation: "ياهو ميل (Yahoo Mail) هو أحد أشهر مزودي خدمة البريد الإلكتروني (E-Mail providers)."
     },
     {
-        question: "What characteristic defines Video Websites?",
+        question: "What distinguishes a 'Portal' from a general website in the context of education?",
         answers: [
-            "They are specialized for text-based educational material",
-            "They are social networks specific to video clips",
-            "They primarily focus on official communication between institutions",
-            "They require specific computer types for usage"
+            "Portals are exclusively for entertainment.",
+            "Portals belong to a specific educational institution.",
+            "Portals do not require internet access.",
+            "Portals are solely for video streaming."
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "مواقع الفيديو هي شبكات اجتماعية، لكنها مخصصة لمقاطع الفيديو."
+        explanation: "البوابات (Portals) هي مواقع ويب مملوكة لمؤسسة تعليمية محددة مثل جامعة المنيا، وتقدم خدماتها الخاصة بتلك المؤسسة."
     },
     {
-        question: "If a university wants to provide online access to all its educational services, such as course applications and fee payments, it would likely use a:",
+        question: "Which Internet service allows users to search for a video file to view and are often free and in most languages?",
+        answers: [
+            "Search Engines",
+            "Databases",
+            "Video Websites",
+            "Web Translation"
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "مواقع الفيديو (Video Websites) هي شبكات اجتماعية مخصصة لمقاطع الفيديو، وتسمح بالبحث عن ملفات الفيديو وعرضها."
+    },
+    {
+        question: "An educational institution wants to create an online platform for students to apply for courses and pay expenses. Which Internet service would be most suitable?",
         answers: [
             "Social network",
-            "Video website",
+            "E-Mail",
             "Portal",
-            "Search engine"
+            "Search Engine"
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "البوابات (Portals) هي مواقع ويب تابعة لمؤسسة تعليمية محددة وتُستخدم للوصول إلى جميع الخدمات التعليمية التي تقدمها المؤسسة."
+        explanation: "البوابات (Portals) تُستخدم من قبل المستخدمين للوصول إلى جميع الخدمات التعليمية التي تقدمها المؤسسة، مثل التقديم على الدورات ودفع المصروفات."
     },
     {
-        question: "Which Internet service uses Web2 technology and is characterized by processes of participation and exchange of social news?",
+        question: "Which of the following is an example of a search engine?",
         answers: [
-            "Databases",
-            "Web Sites",
-            "Social Networks",
-            "Search Engines"
-        ],
-        correctAnswer: 2,
-        chapter: 3,
-        explanation: "الشبكات الاجتماعية (Social Networks) تستخدم تقنية Web2 لعمليات المشاركة وتبادل الأخبار الاجتماعية."
-    },
-    {
-        question: "One way educational web sites are used in education is by:",
-        answers: [
-            "Storing academic research in PDF format",
-            "Creating a website that explains educational material",
-            "Providing immediate translation services",
-            "Allowing direct viewing of video lectures"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "المواقع الإلكترونية التعليمية تُستخدم في التعليم عن طريق إنشاء موقع ويب يشرح المادة التعليمية."
-    },
-    {
-        question: "Which of the following is an example of an Internet service provider that offers E-Mail services?",
-        answers: [
-            "Google Chrome",
+            "Facebook",
             "YouTube",
-            "Google Mail",
-            "Wolfram Alpha"
+            "Google",
+            "Microsoft Outlook"
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "جوجل ميل (Google Mail) هو أحد أشهر مزودي خدمة البريد الإلكتروني."
+        explanation: "جوجل (Google) هو أحد الأمثلة المذكورة على محركات البحث (Search Engines)."
     },
     {
-        question: "The Internet is described as a very large global computer network that links:",
+        question: "What is the primary content found in 'Databases' as an Internet service for education?",
         answers: [
-            "Only educational institutions",
-            "Networks and computers around the world",
-            "Only social media users",
-            "Specific types of hardware"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "الإنترنت هو شبكة كمبيوتر عالمية كبيرة جداً، تربط الشبكات وأجهزة الكمبيوتر حول العالم."
-    },
-    {
-        question: "If a user wants to find academic books and research papers in PDF format, they would most likely use an Internet service classified as a:",
-        answers: [
-            "Search Engine",
-            "E-Mail provider",
-            "Database",
-            "Portal"
+            "Video clips and animations.",
+            "Electronic messages and assignments.",
+            "Books and academic researches in PDF format.",
+            "Social news and community discussions."
         ],
         correctAnswer: 2,
         chapter: 3,
-        explanation: "قواعد البيانات (Databases) هي مواقع ويب تحتوي على عدد ضخم من الموارد التعليمية مثل الكتب والأبحاث الأكاديمية."
+        explanation: "مواقع قواعد البيانات (Databases) تحتوي على عدد هائل من الموارد التعليمية مثل الكتب والأبحاث الأكاديمية المخزنة بصيغة PDF."
     },
-    // ===== صح وخطأ (30 سؤال) =====
     {
-        question: "A computer system is solely composed of software components.",
+        question: "How are social networks used in education, according to the source?",
         answers: [
-            "True",
-            "False"
+            "Primarily for official communication between institutions.",
+            "By creating course or classroom e-groups for educational communication.",
+            "As the main source for immediate electronic translation.",
+            "For searching academic research papers only."
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "نظام الكمبيوتر يتكون من مكونات مادية (hardware) وبرمجية (software)."
+        explanation: "تُستخدم الشبكات الاجتماعية في التعليم من خلال إنشاء مجموعات إلكترونية (e-groups) للتواصل التعليمي."
     },
     {
-        question: "A computer mouse is categorized as an output unit because it displays data.",
+        question: "Which statement about Web Translation services is true?",
         answers: [
-            "True",
-            "False"
+            "They only translate text, not provide related meanings.",
+            "They are primarily used for sending assignments.",
+            "They provide immediate electronic translation and often related meanings of terms.",
+            "They are a type of social network."
+        ],
+        correctAnswer: 2,
+        chapter: 3,
+        explanation: "مواقع الترجمة عبر الويب (Web Translation) توفر ترجمة إلكترونية فورية من لغة إلى أخرى، وتقدم أيضًا عدة معانٍ ذات صلة للمصطلح الواحد."
+    },
+    {
+        question: "The Internet is best described as:",
+        answers: [
+            "A local area network (LAN) for small businesses.",
+            "A global computer network linking networks and computers worldwide.",
+            "A closed system used only by academic researchers.",
+            "A software application for web browsing."
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "الفأرة (Mouse) هي وحدة إدخال."
+        explanation: "الإنترنت شبكة كمبيوتر عالمية واسعة جدًا، تربط الشبكات وأجهزة الكمبيوتر حول العالم."
     },
     {
-        question: "Operating systems like Windows manage computer hardware and software resources.",
+        question: "Which of the following is a key benefit of E-Mail in an educational context?",
         answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "أنظمة التشغيل مثل ويندوز تدير موارد الأجهزة والبرامج."
-    },
-    {
-        question: "ROM (Read Only Memory) is cleared automatically when data is not actively accessed by the CPU.",
-        answers: [
-            "True",
-            "False"
+            "Providing live video lectures.",
+            "Acting as a medium for sending assignments and an official communication means.",
+            "Hosting large databases of academic papers.",
+            "Allowing anonymous social interactions."
         ],
         correctAnswer: 1,
         chapter: 3,
-        explanation: "ذاكرة الوصول العشوائي (RAM) هي التي تُمسح تلقائيًا، بينما تخزن ROM نظام BIOS الذي يعمل عند التشغيل."
+        explanation: "يُستخدم البريد الإلكتروني (E-Mail) كوسيط بين المعلم والمتعلم لإرسال الواجبات والمهام الأكاديمية، وكوسيلة اتصال رسمية بين المؤسسات التعليمية."
     },
     {
-        question: "MS PowerPoint is an example of a graphic application used for video editing.",
+        question: "Which of the following describes Web Sites in the context of internet services for education?",
         answers: [
-            "True",
-            "False"
+            "They are websites belonging to a specific educational institution.",
+            "They are primarily used for sending and receiving electronic messages.",
+            "They are pages containing images and text, dealt with through Internet browsers.",
+            "They are social networks specific to video clips."
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         chapter: 3,
-        explanation: "MS PowerPoint هو تطبيق مكتبي لإنشاء العروض التقديمية."
+        explanation: "المواقع الإلكترونية (Web Sites) هي صفحات تحتوي على صور ونصوص، يتم التعامل معها من خلال متصفحات الإنترنت."
     },
     {
-        question: "A printer is an input device that makes graphics and text on paper.",
+        question: "If a student needs to find educational resources and books by searching keywords, which Internet service would be most helpful?",
         answers: [
-            "True",
-            "False"
+            "E-Mail",
+            "Social networks",
+            "Search Engines",
+            "Video Websites"
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         chapter: 3,
-        explanation: "الطابعة (Printer) هي جهاز إخراج."
+        explanation: "محركات البحث (Search Engines) تُستخدم في التعليم للوصول إلى المواقع التعليمية وتنزيل الكتب والموارد التعليمية."
     },
     {
-        question: "Antivirus applications are used to scan viruses from computers for deletion.",
+        question: "What is a notable feature of Video Websites regarding their content?",
         answers: [
-            "True",
-            "False"
+            "They are restricted to a single language.",
+            "They require paid subscriptions for all content.",
+            "They allow users to search for video files by using search words.",
+            "They primarily offer text-based educational material."
         ],
-        correctAnswer: 0,
+        correctAnswer: 2,
         chapter: 3,
-        explanation: "تطبيقات مكافحة الفيروسات تُستخدم لفحص الفيروسات وحذفها."
+        explanation: "مواقع الفيديو (Video Websites) تسمح للمستخدمين بالبحث عن ملف فيديو للعرض باستخدام كلمات البحث."
     },
     {
-        question: "The CPU (Central Processing Unit) is considered a storage unit.",
+        question: "The statement 'The Internet is free to use, resulting in the ability to reach more audiences' suggests which characteristic?",
         answers: [
-            "True",
-            "False"
+            "High security requirements.",
+            "Limited accessibility.",
+            "Wide reach and availability.",
+            "Complex technical demands for users."
         ],
-        correctAnswer: 1,
+        correctAnswer: 2,
         chapter: 3,
-        explanation: "وحدة المعالجة المركزية (CPU) هي وحدة معالجة، بينما وحدات التخزين منفصلة."
-    },
-    {
-        question: "Educational applications include electronic dictionaries and course-tutorial programs.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "التطبيقات التعليمية تشمل القواميس الإلكترونية وبرامج تعليم الدورات."
-    },
-    {
-        question: "Applications like WinRAR are considered Office Applications.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "WinRAR هو تطبيق وقت تشغيل (Runtime Application) يستخدم لضغط الملفات."
-    },
-    {
-        question: "Computer hardware refers to the physical parts or components of a computer.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "مكونات الكمبيوتر المادية تشير إلى الأجزاء المادية أو مكونات الكمبيوتر."
-    },
-    {
-        question: "Operating systems provide a stable, consistent way for applications to deal with hardware without needing to know all hardware details.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "أنظمة التشغيل توفر طريقة مستقرة ومتسقة للتطبيقات للتعامل مع الأجهزة دون معرفة التفاصيل."
-    },
-    {
-        question: "A hard disk is an example of an internal storage device, not external.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "القرص الصلب هو جهاز تخزين خارجي."
-    },
-    {
-        question: "An input unit typically displays information in a visual form like a TV.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "وحدة العرض (Display) هي التي تعرض المعلومات بصريًا، وهي وحدة إخراج."
-    },
-    {
-        question: "Maintenance applications are primarily designed for creating presentations.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "تطبيقات الصيانة تُستخدم لأداء مهام إصلاح الكمبيوتر."
-    },
-    {
-        question: "The Internet's widespread use is partly due to its requirement for a specific operating system.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "المصادر تذكر أن استخدامه لا يتطلب نوعًا معينًا من الكمبيوتر أو نظام تشغيل معين."
-    },
-    {
-        question: "Search Engines are used in education to access educational websites and download educational resources.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "محركات البحث تُستخدم في التعليم للوصول إلى المواقع التعليمية وتنزيل الموارد."
-    },
-    {
-        question: "E-Mail is exclusively used for sending text messages, not pictures or files.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "البريد الإلكتروني يُستخدم لإرسال واستقبال الرسائل الإلكترونية التي تتضمن نصًا وصورًا وملفات صغيرة."
-    },
-    {
-        question: "Portals are social networks specifically designed for video content.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "البوابات هي مواقع ويب تابعة لمؤسسة تعليمية محددة، بينما مواقع الفيديو متخصصة بمقاطع الفيديو."
-    },
-    {
-        question: "Social Networks are described as websites of the first generation (Web1).",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "الشبكات الاجتماعية هي من الجيل الثاني (Web2)."
-    },
-    {
-        question: "The Internet is defined as a global computer network linking networks and computers around the world.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "الإنترنت هو شبكة كمبيوتر عالمية تربط الشبكات وأجهزة الكمبيوتر حول العالم."
-    },
-    {
-        question: "Video Websites like YouTube are free to use and offer services in most languages.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "مواقع الفيديو مجانية وتوفر خدماتها بمعظم اللغات."
-    },
-    {
-        question: "Databases in the context of educational Internet services only provide free content.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "بعض قواعد البيانات مجانية، وبعضها مدفوع، وبعضها يقدم محتوى مجاني ومدفوع."
-    },
-    {
-        question: "Web Translation sites offer only one specific meaning for each translated term.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "مواقع الترجمة عبر الويب تقدم عدة معانٍ ذات صلة لنفس المصطلح."
-    },
-    {
-        question: "One of the reasons for the Internet's widespread use is its low speed of communication.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "أحد أسباب انتشار الإنترنت هو سرعة الاتصال."
-    },
-    {
-        question: "Educational web sites are primarily used to manage educational resources and technological tools.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "المواقع التعليمية تُستخدم لشرح المواد التعليمية."
-    },
-    {
-        question: "Facebook Mail is mentioned as one of the most famous E-Mail providers.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "Facebook Mail مذكور كأحد أشهر مزودي خدمة البريد الإلكتروني."
-    },
-    {
-        question: "The Internet allows publishing content only in English, which is why it became a common ground.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "الإنترنت يسمح بنشر المحتوى بأي لغة، بينما اللغة الإنجليزية خلقت أرضية مشتركة."
-    },
-    {
-        question: "Social networks can be used in education to create e-groups for communication between parties in the educational process.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 0,
-        chapter: 3,
-        explanation: "الشبكات الاجتماعية يمكن استخدامها في التعليم لإنشاء مجموعات إلكترونية للتواصل بين أطراف العملية التعليمية."
-    },
-    {
-        question: "Portals are distinguished by their ability to provide immediate electronic translation from one language to another.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correctAnswer: 1,
-        chapter: 3,
-        explanation: "هذه وظيفة مواقع الترجمة عبر الويب، وليس البوابات."
+        explanation: "كون الإنترنت مجانيًا للاستخدام يؤدي إلى القدرة على الوصول إلى جمهور أوسع، مما يعكس خاصية الانتشار والوصول الواسع."
     }
 ];
 
